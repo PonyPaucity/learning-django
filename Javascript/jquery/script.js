@@ -1,3 +1,3 @@
 $('h1').click(() => {
-    $(.currentTarget).text('I was changed!')
+    $(event.currentTarget).text('I was changed!')
 })
